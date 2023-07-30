@@ -9,7 +9,7 @@ OBJ = $(SRC:$(SDIR)/%.c=$(ODIR)/%.o)
 
 CXX = g++
 CXXFLAGS = -I$(IDIR)
-CXXFLAGS += -g -O0
+CXXFLAGS += -g3 -O0
 CXXFLAGS += -Iinclude
 CFLAGS += -Wall
 SCPATH = /usr/local/systemc-2.3.3
